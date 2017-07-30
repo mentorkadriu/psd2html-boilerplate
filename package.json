@@ -1,0 +1,28 @@
+{
+  "name": "psd2html-boilerplate",
+  "version": "1.0.0",
+  "description": "Fast front-end development with Gulp, Pug and Scss",
+  "keywords": [
+    "font-end",
+    "development",
+    "boilerplate",
+    "Gulp",
+    "Pug",
+    "Scss"
+  ],
+  "author": "Mentor Kadriu <mentor.kadriu@gmail.com> (https://github.com/mentorkadriu)",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
+  }
+}

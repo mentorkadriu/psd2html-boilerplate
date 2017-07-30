@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title Simple landing page
+    meta(name="author", content="Mentor Kadriu")
+    meta(name='description', content='A simple landing page')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800', rel='stylesheet', type='text/css')
+    link(rel="stylesheet", href="./css/vendors/normalize.css")
+    //- inject:css
+    //- endinject
+    link(rel="stylesheet", href="./css/app.css")
+  body
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    main.l-wrapper
+      include partials/_header
+      block content
+      include partials/_footer
+    block scripts
+      //- inject:js
+      script(src="/node_modules/jquery/dist/jquery.min.js")
+      //- endinject
+      script(src="./js/app.js")
